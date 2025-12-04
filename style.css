@@ -73,3 +73,77 @@ img {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 12px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.logo {
+  font-size: 24px;
+  color: cyan;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.meniu a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.meniu a:hover {
+  color: cyan;
+}
+
+.dreapta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #222;
+  color: white;
+}
+
+.cont {
+  background-color: #00cc66;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cont:hover {
+  background-color: #00994d;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
